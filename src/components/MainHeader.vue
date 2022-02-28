@@ -10,9 +10,7 @@
                 
             </div>
             <div class="desktop-nav">
-                <div class="menu">Movies</div>
-                <div class="menu">Screenigns</div>
-                <div class="menu">Contact us</div>
+                <div class="menu"><TopMenu/></div>
                 <a href="#" class="register">Register</a>
                 <button class="btn_login">Login</button>
             </div>
@@ -22,8 +20,17 @@
 </template>
 
 <script>
+import TopMenu from '@/components/TopMenu.vue'
+
+export default {
+  name: 'App',
+  components: {
+     TopMenu
+    }
+}
 
 </script>
+}
 
 <style >
 @import '@/assets/styles/reset.css';
