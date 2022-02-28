@@ -1,18 +1,23 @@
 <template>
      <div id="MainHeader">
         <header class="header">
-        <div class="header_logo">
-            <img src="../assets/logo.svg" alt="montecinema logo">
+            <div class="header_logo">
+                <img src="../assets/logo.svg" alt="montecinema logo">
            </div>
-
-        <nav>
-            <div class="mobile-nav"><span></span> <span></span> <span></span> </div>
+            <nav>
+                <div class="mobile-nav"><span></span> <span></span> <span></span> </div>
             <div class="desktop-nav">
+                
+            </div>
+            <div class="desktop-nav">
+                <div class="menu">Movies</div>
+                <div class="menu">Screenigns</div>
+                <div class="menu">Contact us</div>
                 <a href="#" class="register">Register</a>
                 <button class="btn_login">Login</button>
             </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
     </div>
 </template>
 

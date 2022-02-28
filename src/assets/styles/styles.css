@@ -105,8 +105,6 @@ body {
         display: flex;
         width: 100%;
     }
-
-
 }
 
 @media(min-width: 932px) {
@@ -130,6 +128,19 @@ body {
         font-family: var(--ff-primary_alt);
         font-weight: 500;
         color: var(--cl-cherry-red);
+        letter-spacing: 0.015em;
+    }
+
+    .desktop-nav .menu {
+        margin-right: 120px;
+        padding: 10px;
+        text-decoration: none;
+        font-family: var(--ff-primary);
+        font-weight: normal;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: var(--cl-grey);
         letter-spacing: 0.015em;
     }
 
