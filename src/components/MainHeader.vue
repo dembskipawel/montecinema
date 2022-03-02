@@ -7,7 +7,6 @@
             <nav>
                 <div class="mobile-nav"><span></span> <span></span> <span></span> </div>
             <div class="desktop-nav">
-                
             </div>
             <div class="desktop-nav">
                 <div class="menu"><TopMenu/></div>
