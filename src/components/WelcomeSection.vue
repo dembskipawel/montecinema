@@ -15,6 +15,6 @@
 <script>
 </script>
 <style>
-@import '@/assets/styles/reset.css';
-@import '@/assets/styles/styles.css';
+    @import '@/assets/styles/reset.css';
+    @import '@/assets/styles/styles.css';
 </style>

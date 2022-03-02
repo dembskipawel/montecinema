@@ -15,7 +15,6 @@
                     {{movie.description}}
                 </div>
             </div>
-            
       </section>
 </section>
       
