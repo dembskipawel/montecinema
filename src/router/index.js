@@ -3,7 +3,12 @@ import VueRouter from 'vue-router';
 const routes = [
     {
       path: '/',
-      name: 'Home',
+      name: 'LandingPage',
+      component: () => import ('@/views/LandingPage.vue')
+    },
+    {
+      path: '/HomePage',
+      name: 'HomePage',
       component: () => import ('@/views/HomePage.vue')
     },
     {
