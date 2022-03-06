@@ -3,7 +3,7 @@
     <!-- <router-view /> -->
     <MainHeader />
     <WelcomeSection />
-    <MovieCard />
+    <!-- <MovieCard /> -->
     <MovieCardV2 />
   </div>
 </template>
